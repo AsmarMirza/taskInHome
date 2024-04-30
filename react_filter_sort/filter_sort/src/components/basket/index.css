@@ -1,0 +1,14 @@
+.basketContainer{
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    height: 1000px;
+}
+.productBox{
+    border: 1px solid black;
+    max-width: 40%;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
