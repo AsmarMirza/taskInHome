@@ -1,0 +1,120 @@
+.text__inside__header {
+    color: #212529;
+    line-height: 1.2;
+  }
+  .text__inside {
+    flex-direction: column;
+    max-width: 600px;
+    border-bottom: 1px solid rgb(213, 207, 207);
+    margin-bottom:10px;
+    padding-bottom: 30px;
+  }
+  .text__inside__contentlink {
+    font-size: 27px;
+    font-weight: 100;
+    margin-top: 15px;
+  }
+  .text__inside__tail {
+    font-size: 18px;
+    color: #6c757d;
+    padding-top: 10px;
+  }
+  .text__inside__header:hover {
+    color: #0085A1;
+  }
+  
+  .text__inside__tail__link {
+    color: black;
+  }
+  .text__inside__tail__link:hover {
+    color: #0085A1;
+  }
+  .home__text {
+    margin-bottom: 20px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  
+  }
+  .home {
+    border-bottom: 1px solid rgb(213, 207, 207);
+    margin: 10px;
+    max-width: 100%;
+  }
+  .text__inside__headerlink {
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  @media screen and (max-width: 768px) {
+    .text__inside {
+  
+      flex-direction: column;
+      max-width: 500px;
+    }
+  }
+  @media screen and (max-width: 584px) {
+    .text__inside {
+  
+      flex-direction: column;
+      max-width: 400px;
+    }
+  }
+  @media screen and (max-width: 389px) {
+    .text__inside {
+  
+      flex-direction: column;
+      max-width: 300px;
+    }
+  
+  }
+  .home__button {
+    max-width: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+  .button__link {
+    border: 1px solid #0085A1;
+    color: white;
+    font-weight: bolder;
+    background-color: #0085A1;
+    padding: 18px 23px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .button__link:hover {
+    background-color: #007189;
+  }
+  @media screen and (max-width: 766px) {
+    .home__button {
+      max-width: 500px;
+      width: 500px;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  @media screen and (max-width: 594px) {
+    .home__button {
+      max-width: 400px;
+      width: 400px;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  @media screen and (max-width: 442px) {
+    .home__button {
+      max-width: 300px;
+      width: 300px;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  

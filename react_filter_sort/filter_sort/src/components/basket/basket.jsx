@@ -6,6 +6,8 @@ function Basket() {
   const [basket, setBasket] = useLocalStorage("myBasket",[])
   const [total, setTotal] = useLocalStorage("myTotal",0)
 
+
+  
   const products=[
     {name:"Xiaomi Mi 11 Ultra",price:1500},
     {name:"iPhone 13 Pro",price:1900},

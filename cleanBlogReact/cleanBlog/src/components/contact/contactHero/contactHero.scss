@@ -1,0 +1,39 @@
+.hero__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+    background-image: linear-gradient(rgba(72, 75, 78, 0.52),
+    rgba(38, 36, 37, 0.73)),
+  url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/contact-bg.jpg");
+  background-position: center;
+}
+.contact__heading{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.large__heading{
+    font-size: 80px;
+    font-weight: bolder;
+    max-width: 100%;
+    width: 480px;
+    padding-bottom: 10px;
+}
+.small__heading{
+    font-size: 25px;
+    font-weight: 50;
+}
+@media screen and (max-width: 991px){
+    .large__heading{
+        font-size: 50px;
+        font-weight: bolder;
+        max-width: 100%;
+        width: 300px;
+        padding-bottom: 25px;
+    }   
+}

@@ -1,0 +1,72 @@
+.sample__hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 650px;
+    background-image: linear-gradient(rgba(37, 39, 40, 0.52),
+    rgba(38, 36, 37, 0.73)),
+  url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/post-bg.jpg");
+  background-position: center;
+}
+.sample__hero__text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 529px;
+    
+}
+.sample__large{
+    font-size: 50px;
+    font-weight: bold;
+    max-width: 100%;
+    max-width: 529px;
+    padding-bottom: 7px;
+    line-height: 60px;
+}
+.sample__middle{
+    font-size: 27px;
+    font-weight: bold;
+    max-width: 529px;
+}
+.sample__small{
+font-size: 20px;
+padding-top: 30px;
+padding-right: 120px;
+max-width: 529px;
+}
+
+@media screen and (max-width: 991px) {
+    .sample__hero__text {
+      .sample__large {
+        font-size: 50px !important;
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
+  
+      }
+      .sample__middle{
+        font-size: 23px ;
+        max-width: 400px;
+      }
+  .sample__small{
+    font-size: 20px;
+    max-width: 400px;
+  }
+    }
+  }
+  
+  @media screen and (max-width: 413px) {
+    .sample__middle {
+      width: 300px;
+  
+    }
+    .sample__small{
+        font-size: 20px;
+        max-width: 300px;
+        padding: 0px;
+      }
+        }

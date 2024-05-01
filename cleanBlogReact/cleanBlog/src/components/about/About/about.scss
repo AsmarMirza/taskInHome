@@ -1,0 +1,40 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    min-height: 550px;
+    background-image: linear-gradient(rgba(72, 75, 78, 0.52),
+    rgba(38, 36, 37, 0.73)),
+      url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/about-bg.jpg");
+    background-position: center;
+    width: 100%;
+}
+.about__header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 80px;
+    font-weight: bolder;
+    max-width: 100%;
+    width: 400px;
+    padding-bottom: 5px;
+}
+.subheading{
+    font-size: 27px;
+    font-weight: 50;
+}
+
+@media screen and (max-width: 991px){
+    .heading{
+        font-size: 60px;
+        font-weight: bolder;
+        max-width: 100%;
+        width: 300px;
+        padding-bottom: 25px;
+    }   
+}
