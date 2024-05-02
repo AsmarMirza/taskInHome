@@ -10,6 +10,7 @@ function Navbar() {
     <div className='navbar'>
       <Link to={"/"}>Home</Link>
       <Link to={"/Basket"}>Basket {basket.length}</Link>
+      <Link to={"/form"}>Form</Link>
       
     </div>
   )
